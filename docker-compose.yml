@@ -9,7 +9,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
     volumes:
-      - db-data:/data
+      - db-data:/ibbi
 
 volumes:
   db-data:
